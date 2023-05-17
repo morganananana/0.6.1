@@ -1,0 +1,51 @@
+:root {
+    --corpendente: #8FD14F;
+    --corconcluida: #0CA789;
+    --corexcluida: #EB4045;
+}
+
+h1 {
+    text-align: center;
+}
+.filtro{
+    width: fit-content;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.navegacao .filtros{
+    display: inline;
+    text-align: center;
+}
+ul.pendentes.concluidas.excluidas {
+    border-radius: 22px;
+    border: 2px solid;
+    margin-left: 450px;
+    padding: 13px;
+}
+.concluidas{
+    background-color: var(--corconcluida) ;
+}
+
+.excluidas{
+    background-color: var(--corexcluida);
+}
+.pendentes:nth-child(1), .pendentes:nth-child(5) {
+    background-color: var(--corpendente);
+}
+
+ol {
+    width: 500px;
+    margin: auto;
+    border-radius: 22px;
+    padding: 13px;
+    border: 2px solid;
+    margin-bottom: 15px;
+}
+
+.tare {
+    background-color: white;
+}
+.tare:hover {
+    transform: scale(1.1);
+}
